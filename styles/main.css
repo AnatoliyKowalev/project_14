@@ -1,0 +1,12 @@
+section {
+  height: 100vh;
+  background-color: #f2deba;
+}
+
+section > .container {
+  height: 100%;
+}
+
+section:nth-child(odd) {
+  background-color: #d9d9d9;
+}

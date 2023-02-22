@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap test</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <!-- task_1 -->
+    <section>
+      <div class="container">...</div>
+    </section>
+
+    <!-- task_2 -->
+    <section>
+      <div class="container">
+        <div class="row">...</div>
+      </div>
+    </section>
+
+    <!-- task_3 -->
+    <section>...</section>
+
+    <!-- task_4 -->
+    <section style="background-color: #424242">...</section>
+
+    <!-- task_5 -->
+    <section>...</section>
+
+    <!-- task_6 -->
+    <!-- Додаткові класи для кнопки (mx-auto mt-auto mb-auto) -->
+    <section class="d-flex">...</section>
+
+    <!-- task_7 -->
+    <!-- Додаткові класи для кнопки (mx-auto mt-auto mb-auto) -->
+    <section class="d-flex">...</section>
+
+    <!-- task_8 -->
+    <!-- Додаткові класи для кнопки (mx-auto mt-auto mb-auto) -->
+    <section class="d-flex">...</section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+      );
+    </script>
+  </body>
+</html>
